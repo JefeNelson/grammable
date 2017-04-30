@@ -63,3 +63,9 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+
+# This gem adds form creation to your web page
+gem 'simple_form'
+
+# This gem adds user authentication
+gem 'devise'
