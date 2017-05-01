@@ -22,5 +22,4 @@ class GramsController < ApplicationController
   def gram_params
     params.require(:gram).permit(:message)
   end
-
 end
