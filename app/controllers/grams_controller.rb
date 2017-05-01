@@ -17,6 +17,9 @@ class GramsController < ApplicationController
     end
   end
 
+  def edit
+  end
+
   def show
     @gram = Gram.find_by_id(params[:id])
     if @gram.blank?
