@@ -70,3 +70,12 @@ gem 'simple_form'
 
 # This gem adds user authentication
 gem 'devise'
+
+# This gem adds picture uploading abilities
+gem 'carrierwave', '~> 1.0'
+
+# This gem adds the use of Amazon AWS
+gem "fog-aws"
+
+# This gem adds secure admin authentication and access
+gem "figaro"
