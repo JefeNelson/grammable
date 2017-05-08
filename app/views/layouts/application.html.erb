@@ -19,7 +19,6 @@
         <div class="add float-right">
           <% if current_user %>
             You're signed in as <%= current_user.email %>
-            <br />
             <%= link_to "New Post", new_gram_path %>
             <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
           <% else %>
@@ -30,13 +29,6 @@
       </div>
       <br class="clear-fix" />
     </div>
-    <% if notice.present? %>
-      <p class="notice"><%= notice %></p>
-    <% end %>
-
-    <% if alert.present? %>
-      <p class="alert"><%= alert %></p>
-    <% end %>
 
     <%= yield %>
   </body>
